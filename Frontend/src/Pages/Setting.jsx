@@ -1,5 +1,5 @@
 import React from 'react'
-import Navbar from '../fomponents/Navbar'
+import Navbar from '../components/Navbar'
 
 const Setting = () => {
   return (
