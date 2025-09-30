@@ -1,0 +1,96 @@
+.login-container{
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    background-color: #fff;
+}
+.login-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    background-color: #f0f0f0;
+}
+.formdiv{
+    width: 60%;
+    /* background-color: red; */
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 2vh;
+    padding: 2vh;
+    box-sizing: border-box;
+} 
+.formdiv h2{
+    text-align: left;
+    margin-bottom: 3vh;
+    font-size: 2rem;
+}
+.formdiv button{
+    background-color: grey;
+    color: white;
+    border: none;
+    padding: 1vh;
+    border-radius: 15px;
+    cursor: pointer;
+    /* font-size: 1.2em; */
+    font-weight: 400;
+}
+.formdiv a{
+    text-decoration: underline;
+    color: #244779;
+    font-size: 0.8em;
+    margin-bottom: 3vh;
+}
+li{
+    list-style: none;
+   
+}
+.login-left p{
+    margin-top: 5vh;
+    font-size: 0.8rem;
+    color: grey;
+}
+.labels{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    gap: 0vh;
+}
+.labels label{
+    color: grey;
+}
+.labels input{
+    width: 100%;
+    padding: 1vh;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.login-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 35%;
+    background-color: #fff;
+}
+.login-right img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}   
+.logo{ 
+    position: absolute;
+    top: 2px;
+    left: 2px;
+}
+.signup-header{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+}
